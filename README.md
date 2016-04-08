@@ -5,3 +5,4 @@
 - { } update footer note
 - { } remove thumbnail
 - { } create logo
+- { } add remaining categories
