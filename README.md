@@ -1,8 +1,8 @@
 #UpVote
 
 ##ToDos
-- { } add linke to title
+- { } add link to title of posts
 - { } update footer note
-- { } remove thumbnail
-- { } create logo
+- { } remove thumbnail from posts
+- { } create logo (Kevin??)
 - { } add remaining categories
