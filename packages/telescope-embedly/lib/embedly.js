@@ -1,16 +1,16 @@
 Posts.addField([
-  {
-    fieldName: 'thumbnailUrl',
-    fieldSchema: {
-      type: String,
-      optional: true,
-      editableBy: ["member", "admin"],
-      autoform: {
-        type: 'bootstrap-postthumbnail',
-        order: 40
-      }
-    }
-  },
+  // {
+  //   fieldName: 'thumbnailUrl',
+  //   fieldSchema: {
+  //     type: String,
+  //     optional: true,
+  //     editableBy: ["member", "admin"],
+  //     autoform: {
+  //       type: 'bootstrap-postthumbnail',
+  //       order: 40
+  //     }
+  //   }
+  // },
   {
     fieldName: 'media',
     fieldSchema: {

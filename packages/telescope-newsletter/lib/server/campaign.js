@@ -70,9 +70,9 @@ buildCampaign = function (postsArray) {
       properties.domain = Telescope.utils.getDomain(post.url);
     }
 
-    if (properties.thumbnailUrl) {
-      properties.thumbnailUrl = Telescope.utils.addHttp(properties.thumbnailUrl);
-    }
+    // if (properties.thumbnailUrl) {
+    //   properties.thumbnailUrl = Telescope.utils.addHttp(properties.thumbnailUrl);
+    // }
 
     postsHTML += Telescope.email.getTemplate('emailPostItem')(properties);
   });

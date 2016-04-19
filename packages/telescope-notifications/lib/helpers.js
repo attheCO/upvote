@@ -9,7 +9,7 @@ Posts.getNotificationProperties = function (post) {
     postTitle : Telescope.utils.cleanUp(post.title),
     profileUrl: Users.getProfileUrl(postAuthor, true),
     postUrl: Posts.getPageUrl(post, true),
-    thumbnailUrl: post.thumbnailUrl,
+    // thumbnailUrl: post.thumbnailUrl,
     linkUrl: !!post.url ? Telescope.utils.getOutgoingUrl(post.url) : Posts.getPageUrl(post, true)
   };
 

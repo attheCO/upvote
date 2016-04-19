@@ -29,10 +29,10 @@ servePostRSS = function (terms, url) {
       url: (Settings.get("RSSLinksPointTo", "link") === "link") ? Posts.getLink(post) : Posts.getPageUrl(post, true)
     };
 
-    if (post.thumbnailUrl) {
-      var url = Telescope.utils.addHttp(post.thumbnailUrl);
-      feedItem.custom_elements = [{"imageUrl":url}, {"content": url}];
-    }
+    // if (post.thumbnailUrl) {
+    //   var url = Telescope.utils.addHttp(post.thumbnailUrl);
+    //   feedItem.custom_elements = [{"imageUrl":url}, {"content": url}];
+    // }
 
     feed.item(feedItem);
   });

@@ -23,11 +23,11 @@ var doSEOStuff = function (post) {
   }
 
   // Set image
-  if (!!post.thumbnailUrl) {
-    var image = Telescope.utils.addHttp(post.thumbnailUrl);
-    DocHead.addMeta({property: "twitter:card", content: "summary_large_image"});
-    Telescope.SEO.setImage(image);
-  }
+  // if (!!post.thumbnailUrl) {
+  //   var image = Telescope.utils.addHttp(post.thumbnailUrl);
+  //   DocHead.addMeta({property: "twitter:card", content: "summary_large_image"});
+  //   Telescope.SEO.setImage(image);
+  // }
 
   // Set Twitter username
   if (!!Settings.get("twitterAccount")) {
