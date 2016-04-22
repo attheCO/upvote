@@ -1,9 +1,9 @@
 {
-  "name": "Telescope",
-  "description": "An open-source community app built with Meteor",
+  "name": "Upvote",
+  "description": "A Reddit like app built with Meteor for theCO to recommend ideas for members and topics for meetups and workshops",
   "repository": "https://github.com/TelescopeJS/Telescope/",
-  "logo": "http://www.telescopeapp.org/images/logo.png",
-  "keywords": ["meteor", "social", "community"],
+  "logo": "#",
+  "keywords": ["meteor", "social", "community", "theCO", "upvote"],
   "env": {
     "BUILDPACK_URL": "https://github.com/AdmitHub/meteor-buildpack-horse.git",
     "ROOT_URL": {
