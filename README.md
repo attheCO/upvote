@@ -15,6 +15,6 @@
 - [ ] update slack of weekly debrief
 - [ ] add copy and styles to landing page
 - [ ] add upload user photo
-- [ ] add use photo from FB or Twitter
+- [ ] add use photo from FB or Twitter [package to use](https://github.com/meteor-utilities/avatar/)
 - [ ] subscribing to categories
 - [ ] set date to present
