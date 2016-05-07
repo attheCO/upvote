@@ -44,3 +44,6 @@ telescope:update-prompt
 ############ Your Custom Packages ############
 
 # my-custom-package
+accounts-twitter
+service-configuration
+accounts-facebook
