@@ -5,7 +5,7 @@
 - [x] title of page
 - [x] hover anchor link color
 - [ ] clear search link (if query is still present)
-- [ ] upvote first post message ;)
+- [x] upvote first post message ;)
 
 ----- maybe later ----
 
