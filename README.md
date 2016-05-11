@@ -4,7 +4,7 @@
 - [ ] add Twitter and Facebook login (on heroku install)
 - [x] title of page
 - [x] hover anchor link color
-- [ ] clear search link (if query is still present)
+- [x] clear search link (if query is still present)
 - [x] upvote first post message ;)
 
 ----- maybe later ----
