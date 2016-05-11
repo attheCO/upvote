@@ -45,6 +45,10 @@ Template.search.events({
       FlowRouter.setQueryParams({query: val});
     }, 700 );
 
+  },
+  'click .clear-search': function () {
+    $('.search input').val('');
+    FlowRouter.setQueryParams({query: ""});
   }
 });
 

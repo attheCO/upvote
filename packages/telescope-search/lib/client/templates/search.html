@@ -3,5 +3,8 @@
     <div class="search {{searchQueryEmpty}} {{moduleClass}}">
         <input id="search" type="search" class="search-field" placeholder="{{_ 'search'}}" value="{{searchQuery}}">
     </div>
+    {{#unless searchQueryEmpty}}
+    	<p class="clear-search">&nbsp;Clear Search?</p>
+    {{/unless}}
   {{/if}}
 </template>
