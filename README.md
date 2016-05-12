@@ -13,8 +13,7 @@
 - [ ] upvote success message
 - [ ] update slack of weekly debrief
 - [ ] add copy and styles to landing page
-- [ ] add upload user photo
 - [ ] hide landing page if logged in
-- [ ] add use photo from FB or Twitter [package to use](https://github.com/meteor-utilities/avatar/)
+- [x] add use photo from FB or Twitter [package to use](https://github.com/meteor-utilities/avatar/)
 - [ ] subscribing to categories
 - [ ] set date to present
